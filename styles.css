@@ -260,9 +260,8 @@ nav ul li a:hover::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff; /* White circular background */
+  background: #fff;
   text-decoration: none;
-  /* Remove gradient text from <a> itself */
 }
 
 .layer a i {
@@ -289,7 +288,7 @@ nav ul li a:hover::after {
   width: fit-content;
   padding: 14px 50px;
   border-radius: 6px;
-  background: #000; /* fallback background */
+  background: #000;
   color: #fff;
   position: relative;
   z-index: 1;
@@ -300,7 +299,7 @@ nav ul li a:hover::after {
   content: "";
   position: absolute;
   inset: 0;
-  padding: 2px; /* border thickness */
+  padding: 2px;
   border-radius: 6px;
   background: linear-gradient(to bottom, #c4e48e, #45d4b9);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
